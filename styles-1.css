@@ -1,0 +1,390 @@
+/* Home section */
+#Home{
+  font-family: Verdana, Geneva, sans-serif;
+  color: white;
+  padding: none;
+}
+
+/* background image */
+.bg-img {
+  background-image: url('../images/edufair-body.jpg');
+  min-height: 420px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+@media (max-width: 750px) {
+  .bg-img {
+    background-image: url('../images/edufair-body.jpg');
+    min-height: 350px;
+    min-width: 900px;
+    background-position:center;
+    background-size: cover;
+    position: static;
+    overflow-x: hidden;
+  }
+}
+
+/* navigation bar */
+.navbar{
+  padding: 3% 2%;
+  height: 100%
+}
+
+.nav-item a:hover {
+  background-color: #ff7b54;
+  color: white;
+}
+
+.nav-link{
+  font-size: 1rem;
+  color: white;
+}
+
+.navbar-brand{
+  font-size: 1rem;
+}
+
+/* Home contents */
+.Home-content{
+  margin: 4% 10% 15%;
+  text-align: left;
+  font-weight: bold;
+}
+
+/* button */
+.btn-home {
+
+background: #ff7b54;
+background-image: -webkit-linear-gradient(top, #ff7b54, #b8712b);
+background-image: -moz-linear-gradient(top, #ff7b54, #b8712b);
+background-image: -ms-linear-gradient(top, #ff7b54, #b8712b);
+background-image: -o-linear-gradient(top, #ff7b54, #b8712b);
+background-image: linear-gradient(to bottom, #ff7b54, #b8712b);
+-webkit-border-radius: 31;
+-moz-border-radius: 31;
+border-radius: 31px;
+-webkit-box-shadow: 0px 1px 5px #ff7b54;
+-moz-box-shadow: 0px 1px 5px #ff7b54;
+box-shadow: 0px 1px 5px #ff7b54;
+font-family: Verdana, Geneva, sans-serif;
+color: #ffffff;
+font-size: 16px;
+padding: 5px 10px 5px 10px;
+text-decoration: none;
+}
+
+.btn-home:hover {
+text-decoration: none;
+}
+
+/* Pages section */
+
+/* extra-activities */
+.pages-icon{
+  position: absolute;
+  top: 390px;
+  left: 122px;
+  background-color: #ff7b54;
+  color: white;
+  padding: 20px 10px 10px;
+  border: 1px;
+  border-radius: 31px;
+}
+
+@media (max-width: 1390px){
+  .pages-icon{
+    display: none;
+  }
+}
+
+.icon-pages{
+  color: white;
+  margin: 1rem 1rem;
+}
+
+.icon-pages:hover{
+  color: #ff4646;
+}
+
+/* cards */
+.card-images{
+  height: 120px;
+  width: 237px;
+  margin-bottom: 5%;
+}
+
+.card{
+font-family: Verdana, Geneva, sans-serif;
+color: black;
+height: 100%
+}
+
+.card-text{
+  font-size: 0.75rem;
+  font-weight: 100;
+  line-height: 1.5;
+}
+
+.card-link{
+  text-decoration: none;
+  color: black;
+}
+
+
+@media (max-width: 750px) {
+  .col-2{
+    display: none;
+  }
+}
+
+#Pages{
+  padding-bottom: 3%;
+}
+
+/* course section */
+#courses{
+  padding: 3% 2%;
+}
+
+.course-images{
+  height: 120px;
+  margin-bottom: 3%
+}
+
+.btn-cards {
+background: #ff7b54;
+background-image: -webkit-linear-gradient(top, #ff7b54, #b8712b);
+background-image: -moz-linear-gradient(top, #ff7b54, #b8712b);
+background-image: -ms-linear-gradient(top, #ff7b54, #b8712b);
+background-image: -o-linear-gradient(top, #ff7b54, #b8712b);
+background-image: linear-gradient(to bottom, #ff7b54, #b8712b);
+-webkit-border-radius: 31;
+-moz-border-radius: 31;
+border-radius: 31px;
+-webkit-box-shadow: 0px 1px 5px #ff7b54;
+-moz-box-shadow: 0px 1px 5px #ff7b54;
+box-shadow: 0px 1px 5px #ff7b54;
+font-family: Verdana, Geneva, sans-serif;
+color: #ffffff;
+font-size: 16px;
+padding: 5px 10px 5px 10px;
+text-decoration: none;
+}
+
+.btn-cards:hover {
+text-decoration: none;
+}
+
+/* about section */
+#about{
+  padding: 3% 2% 2%;
+  font-family: Verdana, Geneva, sans-serif;
+  color: black;
+}
+
+.about-image{
+  margin-right: 2%;
+  float: left;
+}
+
+.about-text{
+  font-size: 0.85rem;
+  font-weight: 100;
+  line-height: 1.5;
+}
+
+/* footer section */
+
+.footer{
+  padding: 0% 2%;
+}
+
+.contact-content{
+  align-content: left;
+  font-family: Verdana, Geneva, sans-serif;
+  color: black;
+  line-height: 2;
+  font-weight: none;
+  font-size: 0.85rem;
+  font-weight: 100;
+}
+
+.font{
+  padding: 1%
+}
+
+.content-sm{
+  float: right;
+  line-height: 2;
+}
+
+/*popup section*/
+
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 16px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 250px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: absolute;
+  bottom: 25px;
+  right: 650px;
+  z-index: 6;
+  color: black;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 0.85rem;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=tel] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 0.85rem;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=tel]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn-submit {
+  background-color: #4CAF50;
+  color: black;
+  padding: 10px;
+  border: none;
+  border-radius: 31px;
+  cursor: pointer;
+  width: 45%;
+  margin-bottom:10px;
+  opacity: 0.8;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 0.85rem;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .btn-cancel {
+  background-color: red;
+  color: black;
+  padding: 10px;
+  border: none;
+  border-radius: 31px;
+  cursor: pointer;
+  width: 45%;
+  margin-bottom:10px;
+  opacity: 0.8;
+  font-family: Verdana, Geneva, sans-serif;
+  float:right;
+  font-size: 0.85rem;
+}
+
+/* chat session */
+.chat-open-button {
+  font-family: Verdana, Geneva, sans-serif;
+  color: black;
+  font-weight: 2rem;
+  font-size: 20px;
+  border-radius: 31px;
+  text-decoration: none;
+  position: relative;
+  bottom: 45px;
+  right: -1130px;
+  width: 180px;
+
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 320px;
+  right: 35px;
+  z-index: 9;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 0.85rem;
+  color: black;
+}
+
+/* Add styles to the form container */
+.form-container1 {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width textarea */
+.form-container1 textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container1 textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/send button */
+.form-container1 .btn-send {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 31px;
+  cursor: pointer;
+  width: 45%;
+  margin-bottom:10px;
+  opacity: 0.8;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 0.85rem;
+}
+
+/* Add a red background color to the cancel button */
+.form-container1 .btn-cancel {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 31px;
+  cursor: pointer;
+  width: 45%;
+  margin-bottom:10px;
+  opacity: 0.8;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 0.85rem;
+}
+
+.rotated{
+  transform: rotate(270deg);
+  padding: none;
+}
